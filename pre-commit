@@ -1,3 +1,4 @@
 #!/bin/bash
-echo $SSH_AUTH_SOCK
+echo "NVM version: " $(nvm -v)
+echo "NodeJS version: " $(node -v)
 exit 1
